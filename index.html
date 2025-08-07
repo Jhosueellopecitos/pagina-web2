@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Recomendaciones de Música</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        Plataforma de Recomendaciones de Música
+    </header>
+    <main>
+        <section>
+            <h2>Agregar Nueva Canción</h2>
+            <input type="text" id="nombre" placeholder="Nombre de la Canción"/>
+            <input type="text" id="artista" placeholder="Artista de la Canción"/>
+            <input type="text" id="url" placeholder="URL de la Canción"/>
+            <button id="guardar">Guardar Canción</button>
+        </section>
+        <section>
+            <h2>Obtener Canción Aleatoria</h2>
+            <button id="randomSong">Obtener Canción Aleatoria</button>
+            <div id="randomSongInfo"></div>
+        </section>
+        <section>
+            <h2>Lista de Canciones</h2>
+            <button id="getSongListButton">Obtener Lista de Canciones</button>
+            <div id="songList"></div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Plataforma de Recomendaciones de Música
+    </footer>
+</body>
+</html>
